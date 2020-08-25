@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.css'
-import SubmitButton from "../SubmitButton";
-import { useCopyToClipboard } from "../../hooks/useCopyToClipboard";
+import SubmitButton from '../SubmitButton';
+import { useCopyToClipboard } from '../../hooks/useCopyToClipboard';
 
 const ShortenUrlResult = (props) => {
     const [isCopied, handleCopy] = useCopyToClipboard();

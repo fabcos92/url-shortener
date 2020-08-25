@@ -1,7 +1,7 @@
-import React from "react";
-import "./styles.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import MainPage from "../../components/MainPage";
+import React from 'react';
+import './styles.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import MainPage from '../../components/MainPage';
 
 function App() {
     return (

@@ -29,3 +29,7 @@
     outline: none !important;
     border: solid 1px #ddcfcf;
 }
+
+.TextInput__input--invalid {
+    border: solid 1px red;
+}
