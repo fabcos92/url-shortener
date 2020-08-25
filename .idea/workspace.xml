@@ -19,16 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a516b5e8-7d35-4f5a-848b-f456aa1fc1b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/urlValidator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/apps/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/apps/App/index.js" afterDir="false" />
+    <list default="true" id="a516b5e8-7d35-4f5a-848b-f456aa1fc1b6" name="Default Changelist" comment="validate url">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/MainPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MainPage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ShortenUrlResult/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ShortenUrlResult/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/TextInput/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/TextInput/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/TextInput/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/TextInput/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/hooks/useCopyToClipboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/hooks/useCopyToClipboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/hooks/useInputState.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/hooks/useInputState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/hooks/useShortenUrlSubmit.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/hooks/useShortenUrlSubmit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/components/ValidationStatus" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -91,8 +85,16 @@
       <updated>1597573084115</updated>
       <workItem from="1597573085263" duration="3070000" />
       <workItem from="1598297976653" duration="22241000" />
-      <workItem from="1598393263049" duration="2065000" />
+      <workItem from="1598393263049" duration="3785000" />
     </task>
+    <task id="LOCAL-00001" summary="validate url">
+      <created>1598395419017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598395419017</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,11 +111,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="validate url" />
+    <option name="LAST_COMMIT_MESSAGE" value="validate url" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="591" y="197" width="800" height="719" key="#Plugins" timestamp="1598366442636">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="591" y="197" width="800" height="719" key="#Plugins/72.27.1848.1053@72.27.1848.1053" timestamp="1598366442636" />
+    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog" timestamp="1598397048835">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1598397048835" />
     <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597574454085">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -122,10 +132,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1597573259161" />
-    <state x="687" y="292" width="618" height="522" key="find.popup" timestamp="1598378352320">
+    <state x="687" y="292" width="618" height="522" key="find.popup" timestamp="1598395596421">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="687" y="292" width="618" height="522" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1598378352320" />
+    <state x="687" y="292" width="618" height="522" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1598395596421" />
     <state x="660" y="252" key="run.anything.popup" timestamp="1598390907020">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
