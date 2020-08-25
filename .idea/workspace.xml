@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a516b5e8-7d35-4f5a-848b-f456aa1fc1b6" name="Default Changelist" comment="validate url">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MainPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MainPage/index.js" afterDir="false" />
+    <list default="true" id="a516b5e8-7d35-4f5a-848b-f456aa1fc1b6" name="Default Changelist" comment="add mock request">
       <change beforePath="$PROJECT_DIR$/frontend/src/hooks/useShortenUrlSubmit.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/hooks/useShortenUrlSubmit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +83,7 @@
       <updated>1597573084115</updated>
       <workItem from="1597573085263" duration="3070000" />
       <workItem from="1598297976653" duration="22241000" />
-      <workItem from="1598393263049" duration="3785000" />
+      <workItem from="1598393263049" duration="5010000" />
     </task>
     <task id="LOCAL-00001" summary="validate url">
       <created>1598395419017</created>
@@ -94,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598395419017</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add mock request">
+      <created>1598397085936</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598397085936</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +118,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="validate url" />
-    <option name="LAST_COMMIT_MESSAGE" value="validate url" />
+    <MESSAGE value="add mock request" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mock request" />
   </component>
   <component name="WindowStateProjectService">
     <state x="591" y="197" width="800" height="719" key="#Plugins" timestamp="1598366442636">
@@ -132,6 +138,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1597573259161" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598397261974">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598397261974" />
     <state x="687" y="292" width="618" height="522" key="find.popup" timestamp="1598395596421">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

@@ -6,7 +6,7 @@ export function useShortenUrlSubmit() {
     const [result, setResult] = useState(null);
     const [inputUrl, setInputUrl] = useState(null);
     const [isInputValid, setIsInputValid] = useState(null);
-    const [resultMessage, setResultMessage] = useState({type: false, text: ''});
+    const [resultMessage, setResultMessage] = useState({success: false, text: ''});
 
     const handleSubmit = useCallback((url) => {
         const isValid = validate(url);
@@ -18,17 +18,28 @@ export function useShortenUrlSubmit() {
 
     useEffect(() => {
         setIsRequestLoading(true);
+        setResult(inputUrl);
 
         fetch(getRequest(), getRequestOptions(inputUrl))
             .then(response => response.json())
             .then(data => {
                 if (data.shortenedUrl) {
                     setResult(data.shortenedUrl);
-                    setResultMessage('Url has been shortened and returned.');
+                    setResultMessage({
+                        success: true,
+                        text: 'Url has been shortened and returned.',
+                    });
                 } else if (data.error) {
                     setResultMessage(data.error);
+                    setResultMessage({
+                        success: false,
+                        text: data.error,
+                    });
                 } else {
-                    setResultMessage('There was an error!');
+                    setResultMessage({
+                        success: false,
+                        text:'There was an error!',
+                    });
                 }
             })
             .catch(error => setResultMessage(error))
