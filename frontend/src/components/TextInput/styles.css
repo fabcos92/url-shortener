@@ -1,0 +1,31 @@
+.TextInput {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.TextInput__input {
+    outline: none;
+    font: inherit;
+    flex: 0 1 100%;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: solid 1px #efeaea;
+    font-size: 14px;
+    text-indent: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.TextInput__input:hover {
+    border: solid 1px #ddcfcf;
+    box-shadow: 0 0 5px #b89e9e;
+}
+
+.TextInput__input:focus {
+    outline: none !important;
+    border: solid 1px #ddcfcf;
+}

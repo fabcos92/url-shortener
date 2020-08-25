@@ -1,0 +1,19 @@
+.ShortenUrlResult {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    padding: 15px 0;
+    background: #e0d9d691;
+    border-radius: 8px;
+}
+
+.ShortenUrlResult__short-link {
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    text-indent: 15px;
+}
+.ShortenUrlResult * {
+    margin: 0 15px;
+}

@@ -1,0 +1,30 @@
+.SubmitButton {
+    font: inherit;
+    background: #f6f6f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: solid 1px #efeaea;
+    height: 42px;
+    padding: 0 20px;
+}
+
+.SubmitButton:hover {
+    background: #fff;
+    border: solid 1px #ddcfcf;
+    box-shadow: 0 0 5px #b89e9e;
+}
+
+.SubmitButton:focus {
+    background: #f6f6f7;
+    outline: none !important;
+    border: solid 1px #ddcfcf;
+}
+
+.SubmitButton:disabled {
+    pointer-events: none;
+}
