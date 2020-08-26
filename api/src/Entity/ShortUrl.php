@@ -8,14 +8,14 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity()
- * @ORM\Table(name="ShortUrl")
+ * @ORM\Table(name="ShortLink")
  *
  */
 class ShortUrl
 {
     /**
      * @ORM\Id()
-     * @ORM\Column(type="id", name="id")
+     * @ORM\Column(type="integer", name="id")
      * @ORM\GeneratedValue(strategy="AUTO")
      */
     private int $id;

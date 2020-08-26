@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a516b5e8-7d35-4f5a-848b-f456aa1fc1b6" name="Default Changelist" comment="readme typo">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Feedback/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Feedback/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MainPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MainPage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/hooks/useShortenUrlSubmit.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/hooks/useShortenUrlSubmit.js" afterDir="false" />
+    <list default="true" id="a516b5e8-7d35-4f5a-848b-f456aa1fc1b6" name="Default Changelist" comment="console.log, feedback, table name">
+      <change beforePath="$PROJECT_DIR$/api/src/Entity/ShortUrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Entity/ShortUrl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598424432946</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="console.log, feedback, table name">
+      <created>1598425738333</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598425738333</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +205,8 @@
     <MESSAGE value="add patch, add the rest od init steps" />
     <MESSAGE value="add patch, add the rest of init steps" />
     <MESSAGE value="readme typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme typo" />
+    <MESSAGE value="console.log, feedback, table name" />
+    <option name="LAST_COMMIT_MESSAGE" value="console.log, feedback, table name" />
   </component>
   <component name="WindowStateProjectService">
     <state x="591" y="197" width="800" height="719" key="#Plugins" timestamp="1598366442636">
@@ -229,18 +233,18 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1598400423417" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598424436465">
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598425741770">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598424436465" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598425741770" />
     <state x="777" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598422077019">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="777" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598422077019" />
-    <state x="687" y="292" width="618" height="684" key="find.popup" timestamp="1598422304578">
+    <state x="687" y="292" width="618" height="684" key="find.popup" timestamp="1598425709360">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="687" y="292" width="618" height="684" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1598422304578" />
+    <state x="687" y="292" width="618" height="684" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1598425709360" />
     <state x="660" y="252" key="run.anything.popup" timestamp="1598390907020">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
