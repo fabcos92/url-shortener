@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React Index](https://github.com/facebook/create-react-app).
+## Setup
+Start dir for each command is repository dir;
 
-## Available Scripts
+Run commands to start BE:
+```
+cd api/
+symfony server:start
+```
 
-In the project directory, you can run:
+Run commands to start FE:
+```
+cd frontend/
+npm start
+```
 
-### `npm start`
+## Key questions (and answers)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### which characters are allowed in URL?
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+-> https://www.rfc-editor.org/rfc/rfc1738.txt
+A-Z a-z 0-9 "$-_.+!*'(),"
 
-### `npm test`
+#### how many link should I be prepared to store?
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1 200 000 000/month - average total visits to bit.ly a month (https://www.similarweb.com/website/bit.ly/)
+that'd be 720 000 000 000 in 50 years? (for some reasons longlasting links would be nice)
+would say: 10^12
 
-### `npm run build`
+#### how long link should be?
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Given I have 62 characters allowed to use and I need 10^12 slots, then I have 62^X = 10^12, where X is length of our link (the random part). Then X is 6.6949652078. Bit.ly uses 7 chars so I guess they are pretty familiar to that math :D I think it's reasonable, especially that 6 (one less) allowed chars for 62 chars gives 56 800 235 584, which is ~5% of an estimated number of sorts.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### how generate random links and avoid duplications?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React Index documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web Index
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Commonly used solution is base convertion. Based on selected characters I implemented `ShortUrlGenerator` with `BASE62_ALPHABET`.

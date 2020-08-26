@@ -19,27 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a516b5e8-7d35-4f5a-848b-f456aa1fc1b6" name="Default Changelist" comment="add nelmio cors to allow FE to conn to BE, FE&lt;-&gt;BE ok">
-      <change afterPath="$PROJECT_DIR$/api/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Entity/ShortUrl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Persister/ShortUrlPersister.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Persister/ShortUrlPersisterInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Provider/ShortUrlProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Provider/ShortUrlProviderInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Service/ShortUrlGenerator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Service/ShortUrlGeneratorInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.env" beforeDir="false" afterPath="$PROJECT_DIR$/api/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/Controller/UrlController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Controller/UrlController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/symfony.lock" afterDir="false" />
+    <list default="true" id="a516b5e8-7d35-4f5a-848b-f456aa1fc1b6" name="Default Changelist" comment="implement Ctrl">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598410400263</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="implement BE">
+      <created>1598423012885</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598423012885</updated>
+    </task>
+    <task id="LOCAL-00008" summary="implement Ctrl">
+      <created>1598423030196</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598423030196</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +171,9 @@
     <MESSAGE value="api setup" />
     <MESSAGE value="add endpoints" />
     <MESSAGE value="add nelmio cors to allow FE to conn to BE, FE&lt;-&gt;BE ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="add nelmio cors to allow FE to conn to BE, FE&lt;-&gt;BE ok" />
+    <MESSAGE value="implement BE" />
+    <MESSAGE value="implement Ctrl" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement Ctrl" />
   </component>
   <component name="WindowStateProjectService">
     <state x="591" y="197" width="800" height="719" key="#Plugins" timestamp="1598366442636">
@@ -203,10 +200,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1598400423417" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598400098907">
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598423033897">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598400098907" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598423033897" />
     <state x="777" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598422077019">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
