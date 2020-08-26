@@ -10,7 +10,7 @@ import { useShortenUrlSubmit } from '../../hooks/useShortenUrlSubmit';
 const MainPage = (props) => {
     const [inputValue, handleInputChange] = useInputState();
     const [isRequestLoading, result, handleSubmit, isInputValid, resultMessage] = useShortenUrlSubmit();
-console.log(resultMessage);
+
     return (
         <div className={`MainPage ${props.className ?? ''}`}>
             <PageTitle

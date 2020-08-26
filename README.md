@@ -1,6 +1,19 @@
 ## Setup
 Start dir for each command is repository dir;
 
+###Dependencies
+Run command to install BE dependencies:
+```
+cd api/
+composer install
+```
+
+Run command to install FE dependencies:
+```
+cd frontend/
+npm install
+```
+
 Run commands to start BE:
 ```
 cd api/
@@ -12,6 +25,9 @@ Run commands to start FE:
 cd frontend/
 npm start
 ```
+
+Configure db connection in `.env` file, edit `DATABASE_URL`,
+then run `init.sql` patch (creating database is omitted because doctrine does it).
 
 ## Key questions (and answers)
 

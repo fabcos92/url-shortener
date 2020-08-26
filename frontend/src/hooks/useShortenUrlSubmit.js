@@ -51,7 +51,7 @@ export function useShortenUrlSubmit() {
 }
 
 const getRequestUrl = () => (
-    'http://127.0.0.1:8001/url/shorten'
+    'http://localhost:8001/url/shorten'
 );
 
 const getRequestOptions = (inputUrl) => ({
