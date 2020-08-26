@@ -1,7 +1,7 @@
 ## Setup
 Start dir for each command is repository dir;
 
-###Dependencies
+### Dependencies
 Run command to install BE dependencies:
 ```
 cd api/
