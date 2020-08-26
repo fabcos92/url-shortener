@@ -3,5 +3,5 @@ app_url_shorten:
   controller: App\Controller\UrlController::shortenUrl
 
 app_url_redirect:
-  path: /url/redirect
+  path: /{slug}
   controller: App\Controller\UrlController::redirectWithShortenedUrl
