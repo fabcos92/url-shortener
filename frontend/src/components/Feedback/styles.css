@@ -3,8 +3,15 @@
     width: 50%;
     justify-content: center;
     padding: 15px 0;
-    background: #e0d9d691;
     border-radius: 8px;
+}
+
+.Feedback--success {
+    background: #44822f91;
+}
+
+.Feedback--fail {
+    background: #de648091;
 }
 
 .Feedback__message {

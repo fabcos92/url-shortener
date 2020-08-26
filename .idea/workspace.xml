@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a516b5e8-7d35-4f5a-848b-f456aa1fc1b6" name="Default Changelist" comment="console.log, feedback, table name">
-      <change beforePath="$PROJECT_DIR$/api/src/Entity/ShortUrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Entity/ShortUrl.php" afterDir="false" />
+    <list default="true" id="a516b5e8-7d35-4f5a-848b-f456aa1fc1b6" name="Default Changelist" comment="table name">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Feedback/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Feedback/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Feedback/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Feedback/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598425738333</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="table name">
+      <created>1598425942718</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598425942718</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,17 +215,18 @@
     <MESSAGE value="add patch, add the rest of init steps" />
     <MESSAGE value="readme typo" />
     <MESSAGE value="console.log, feedback, table name" />
-    <option name="LAST_COMMIT_MESSAGE" value="console.log, feedback, table name" />
+    <MESSAGE value="table name" />
+    <option name="LAST_COMMIT_MESSAGE" value="table name" />
   </component>
   <component name="WindowStateProjectService">
     <state x="591" y="197" width="800" height="719" key="#Plugins" timestamp="1598366442636">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="591" y="197" width="800" height="719" key="#Plugins/72.27.1848.1053@72.27.1848.1053" timestamp="1598366442636" />
-    <state x="729" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598421494402">
+    <state x="729" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598426292909">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="729" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1598421494402" />
+    <state x="729" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1598426292909" />
     <state x="172" y="127" width="1648" height="853" key="DiffContextDialog" timestamp="1598397048835">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -233,10 +243,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1598400423417" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598425741770">
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598426249379">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598425741770" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598426249379" />
     <state x="777" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598422077019">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

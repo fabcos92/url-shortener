@@ -6,7 +6,10 @@ const Feedback = (props) => {
         return null;
     }
     return (
-        <div className={`Feedback ${props.className ?? ''}`}>
+        <div className={`
+                Feedback ${props.className ?? ''} 
+                ${!props.success ? 'Feedback--success' : 'Feedback--fail'}
+            `}>
             <span className="Feedback__message">
                 { props.message }
             </span>
