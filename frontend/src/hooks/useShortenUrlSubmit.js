@@ -22,7 +22,6 @@ export function useShortenUrlSubmit() {
             fetch(getRequestUrl(), getRequestOptions(inputUrl))
                 .then(response => response.json())
                 .then(data => {
-                    console.log(data);
                     if (data.shortUrl) {
                         setResult(data.shortUrl);
                         setResultMessage({
@@ -30,7 +29,6 @@ export function useShortenUrlSubmit() {
                             text: 'Url has been shortened and returned.',
                         });
                     } else if (data.error) {
-                        setResultMessage(data.error);
                         setResultMessage({
                             success: false,
                             text: data.error,
@@ -42,7 +40,10 @@ export function useShortenUrlSubmit() {
                         });
                     }
                 })
-                .catch(error => setResultMessage(error))
+                .catch(error => setResultMessage({
+                    success: false,
+                    text: error.toString(),
+                }))
                 .finally(() => setIsRequestLoading(false));
         }
     }, [inputUrl]);

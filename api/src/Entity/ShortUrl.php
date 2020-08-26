@@ -8,9 +8,8 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity()
- * @ORM\Table(name="tc_user")
+ * @ORM\Table(name="ShortUrl")
  *
- * @package TimeCamp\Next\Entity
  */
 class ShortUrl
 {

@@ -6,6 +6,7 @@ import SubmitButton from '../SubmitButton';
 import ShortenUrlResult from '../ShortenUrlResult';
 import { useInputState } from '../../hooks/useInputState';
 import { useShortenUrlSubmit } from '../../hooks/useShortenUrlSubmit';
+import Feedback from '../Feedback';
 
 const MainPage = (props) => {
     const [inputValue, handleInputChange] = useInputState();
@@ -30,6 +31,7 @@ const MainPage = (props) => {
                 />
             </div>
             <ShortenUrlResult result={result} />
+            <Feedback message={resultMessage.text} />
         </div>
     );
 }

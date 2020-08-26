@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a516b5e8-7d35-4f5a-848b-f456aa1fc1b6" name="Default Changelist" comment="add patch, add the rest of init steps" />
+    <list default="true" id="a516b5e8-7d35-4f5a-848b-f456aa1fc1b6" name="Default Changelist" comment="readme typo">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Feedback/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Feedback/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/MainPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MainPage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/hooks/useShortenUrlSubmit.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/hooks/useShortenUrlSubmit.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/components/ValidationStatus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/components/Feedback" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -62,11 +68,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/components/Feedback" />
       <recent name="$PROJECT_DIR$/frontend/src/components/ValidationStatus" />
       <recent name="$PROJECT_DIR$/frontend/src/components/Form" />
       <recent name="$PROJECT_DIR$/frontend/src/components" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -158,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598424306631</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="readme typo">
+      <created>1598424432946</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598424432946</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +201,8 @@
     <MESSAGE value="readme" />
     <MESSAGE value="add patch, add the rest od init steps" />
     <MESSAGE value="add patch, add the rest of init steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="add patch, add the rest of init steps" />
+    <MESSAGE value="readme typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme typo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="591" y="197" width="800" height="719" key="#Plugins" timestamp="1598366442636">
@@ -215,10 +229,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1598400423417" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598423601000">
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598424436465">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598423601000" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598424436465" />
     <state x="777" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598422077019">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
