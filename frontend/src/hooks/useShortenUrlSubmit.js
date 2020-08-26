@@ -17,40 +17,41 @@ export function useShortenUrlSubmit() {
     }, []);
 
     useEffect(() => {
-        setIsRequestLoading(true);
-        setResult(inputUrl);
-
-        fetch(getRequest(), getRequestOptions(inputUrl))
-            .then(response => response.json())
-            .then(data => {
-                if (data.shortenedUrl) {
-                    setResult(data.shortenedUrl);
-                    setResultMessage({
-                        success: true,
-                        text: 'Url has been shortened and returned.',
-                    });
-                } else if (data.error) {
-                    setResultMessage(data.error);
-                    setResultMessage({
-                        success: false,
-                        text: data.error,
-                    });
-                } else {
-                    setResultMessage({
-                        success: false,
-                        text:'There was an error!',
-                    });
-                }
-            })
-            .catch(error => setResultMessage(error))
-            .finally(() => setIsRequestLoading(false));
+        if (inputUrl) {
+            setIsRequestLoading(true);
+            fetch(getRequestUrl(), getRequestOptions(inputUrl))
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    if (data.shortUrl) {
+                        setResult(data.shortUrl);
+                        setResultMessage({
+                            success: true,
+                            text: 'Url has been shortened and returned.',
+                        });
+                    } else if (data.error) {
+                        setResultMessage(data.error);
+                        setResultMessage({
+                            success: false,
+                            text: data.error,
+                        });
+                    } else {
+                        setResultMessage({
+                            success: false,
+                            text:'There was an error!',
+                        });
+                    }
+                })
+                .catch(error => setResultMessage(error))
+                .finally(() => setIsRequestLoading(false));
+        }
     }, [inputUrl]);
 
     return [isRequestLoading, result, handleSubmit, isInputValid, resultMessage];
 }
 
-const getRequest = () => (
-    ''
+const getRequestUrl = () => (
+    'http://127.0.0.1:8001/url/shorten'
 );
 
 const getRequestOptions = (inputUrl) => ({
